@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CodePro.vn - CyberSoft.edu.vn</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="./images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./vendor/animate/animate.css"
+    />
+    <!--===============================================================================================-->
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <!--===============================================================================================-->
+  </head>
+
+  <body>
+    <div class="container-contact100">
+      <div class="wrap-contact100">
+        <div>
+          <img
+            src="./images/cybersoft.png"
+            alt="Front End CyberSoft"
+            width="40%"
+          />
+          <span style="padding: 20px"></span>
+          <!-- <img src="./images/codepro.png" alt="Front End CyberSoft" width="30%" /> -->
+
+          <div style="clear: both"></div>
+          <span class="contact100-form-title"> Tính điểm thi </span>
+          <div id="chonkv">
+            <h2>Vui lòng chọn khu vực</h2>
+            <ul>
+              <li class="type">
+                <input type="radio" name="selector" id="kvA" />
+                <label for="kvA">Khu vực A</label>
+                <div class="check"></div>
+              </li>
+
+              <li class="type">
+                <input type="radio" name="selector" id="kvB" />
+                <label for="kvB">Khu vực B</label>
+                <div class="check"></div>
+              </li>
+
+              <li class="type">
+                <input type="radio" name="selector" id="kvC" />
+                <label for="kvC">Khu vực C</label>
+                <div class="check"></div>
+              </li>
+            </ul>
+          </div>
+          <div id="chondt">
+            <br />
+            <br />
+            <br />
+            <br />
+            <h2>Vui lòng chọn đối tượng được ưu tiên</h2>
+            <ul>
+              <li class="type">
+                <input type="radio" name="selector" id="dt1" />
+                <label for="dt1">Đối tượng 1</label>
+                <div class="check"></div>
+              </li>
+
+              <li class="type">
+                <input type="radio" name="selector" id="dt2" />
+                <label for="dt2">Đối tượng 2</label>
+                <div class="check"></div>
+              </li>
+
+              <li class="type">
+                <input type="radio" name="selector" id="dt3" />
+                <label for="dt3">Đối tượng 3</label>
+                <div class="check"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div style="clear: both"></div>
+
+        <form class="contact100-form">
+          <div
+            class="wrap-input100 validate-input"
+            data-validate="Name is required"
+          >
+            <h2>Nhập vào số KM</h2>
+            <input
+              id="km"
+              class="input100"
+              type="text"
+              name="name"
+              placeholder="Số KM ..."
+            />
+            <span class="focus-input100"></span>
+          </div>
+          <div
+            class="wrap-input100 validate-input"
+            data-validate="Name is required"
+          >
+            <h2>Nhập thời gian chờ</h2>
+            <input
+              id="time"
+              class="input100"
+              type="text"
+              name="name"
+              placeholder="Thời gian chờ  ..."
+            />
+            <span class="focus-input100"></span>
+          </div>
+
+          <div class="wrap-contact100-form-btn">
+            <div class="contact100-form-bgbtn"></div>
+            <button type="button" class="contact100-form-btn">TÍNH TIỀN</button>
+          </div>
+          <div class="wrap-contact100-form-btn">
+            <div class="contact100-form-bgbtn"></div>
+            <button
+              type="button"
+              class="contact100-form-btn"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            >
+              IN HÓA ĐƠN
+            </button>
+          </div>
+        </form>
+
+        <div style="clear: both"></div>
+        <div id="divThanhTien" class="dongia">
+          <h2>
+            Thành tiền:
+            <span id="xuatTien" class="xuatTien"></span>
+            vnd
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <!--===============================================================================================-->
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="./vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="./vendor/bootstrap/js/popper.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+
+    <script src="./js/index.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script> -->
+    <!-- <script src="./js/map-custom.js"></script> -->
+    <!--===============================================================================================-->
+  </body>
+</html>
