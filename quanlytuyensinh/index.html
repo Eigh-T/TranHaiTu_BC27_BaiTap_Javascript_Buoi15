@@ -100,13 +100,13 @@
             class="wrap-input100 validate-input"
             data-validate="Name is required"
           >
-            <h2>Nhập vào số KM</h2>
+            <h2>Nhập vào điểm chuẩn</h2>
             <input
               id="km"
               class="input100"
               type="text"
               name="name"
-              placeholder="Số KM ..."
+              placeholder="nhập điểm chuẩn ..."
             />
             <span class="focus-input100"></span>
           </div>
@@ -114,40 +114,64 @@
             class="wrap-input100 validate-input"
             data-validate="Name is required"
           >
-            <h2>Nhập thời gian chờ</h2>
+            <h2>Nhập điểm môn thứ nhất</h2>
+            <br>
             <input
               id="time"
               class="input100"
               type="text"
               name="name"
-              placeholder="Thời gian chờ  ..."
+              placeholder="điểm môn thứ nhất ..."
             />
             <span class="focus-input100"></span>
           </div>
+          <div
+          class="wrap-input100 validate-input"
+          data-validate="Name is required"
+        >
+          <h2>Nhập điểm môn thứ hai</h2>
+          <br>
+          <input
+            id="time"
+            class="input100"
+            type="text"
+            name="name"
+            placeholder="điểm môn thứ hai ..."
+          />
+          <span class="focus-input100"></span>
+        </div>
+        <div
+        class="wrap-input100 validate-input"
+        data-validate="Name is required"
+      >
+        <h2>Nhập điểm môn thứ ba</h2>
+        <br>
+        <input
+          id="time"
+          class="input100"
+          type="text"
+          name="name"
+          placeholder="điểm môn thứ ba ..."
+        />
+        <span class="focus-input100"></span>
+      </div>
 
           <div class="wrap-contact100-form-btn">
             <div class="contact100-form-bgbtn"></div>
-            <button type="button" class="contact100-form-btn">TÍNH TIỀN</button>
+            <button type="button" class="contact100-form-btn">Tính điểm</button>
           </div>
           <div class="wrap-contact100-form-btn">
             <div class="contact100-form-bgbtn"></div>
-            <button
-              type="button"
-              class="contact100-form-btn"
-              data-toggle="modal"
-              data-target="#exampleModal"
-            >
-              IN HÓA ĐƠN
-            </button>
+
           </div>
         </form>
 
         <div style="clear: both"></div>
-        <div id="divThanhTien" class="dongia">
+        <div id="diem" class="dongia" style=" display: none;">
           <h2>
-            Thành tiền:
-            <span id="xuatTien" class="xuatTien"></span>
-            vnd
+           Kết quả
+           <span id="tongdiem" ></span>
+            <span id="thongbao" ></span>
           </h2>
         </div>
       </div>
